@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup Page</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #7749f5;
+    margin: 0;
+    padding: 0;
+    }
+
+    .container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgb(245, 246, 244);
+    }
+
+    h1 {
+    text-align: center;
+    }
+
+    .form-group {
+    margin-bottom: 20px;
+    }
+
+    .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+
+    .form-group input {
+    width: 100%;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    }
+
+    .form-group input[type="submit"] {
+    background-color: #110654;
+    color: #fff;
+    cursor: pointer;
+    }
+
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>SIGN UP</h1>
+    <form>
+    <div class="form-group">
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" value="" disabled>
+    </div>
+    <div class="form-group">
+        <label for="email">EMAIL ID</label>
+        <input type="email" id="email" name="email" value="" disabled>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Sign Up" >
+    </div>
+    </form>
+</div>
+</body>
+</html>
+
